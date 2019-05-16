@@ -375,10 +375,13 @@ public class Poblacion {
         boolean resultado = false;
             if (ser.getEdad() >=ser.getEsperanzaVida()) {
                 resultado = true;
-
+                
         }
         return resultado;
     }
+public void recaudarMuertos() {
+	
+}
 
     public ArrayList<Seres> eliminarFallecidos() {
         fallecidos.clear();
